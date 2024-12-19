@@ -1,0 +1,27 @@
+# Core Dependencies
+numpy==1.23.5                 # Numerical computations for PCA and other statistical operations
+scikit-learn==1.2.2           # Machine learning tools for DBSCAN clustering and PCA dimensionality reduction
+sentence-transformers==2.2.2  # Pre-trained embeddings for text clustering and similarity calculations
+torch==2.0.1                  # PyTorch backend for tensor operations in SentenceTransformer
+transformers==4.26.0          # Tokenizers and utilities for NLP operations
+langchain==0.0.188            # Tools for text chunking and unstructured text processing
+bs4==0.0.1                    # BeautifulSoup for HTML parsing
+tqdm==4.65.0                  # Progress bars for processing pipelines
+
+# Visualization Tools
+matplotlib==3.7.1             # Data visualization for financial metrics and segment performance pie charts
+
+# Utilities and Logging
+loguru==0.6.0                 # Advanced logging to track errors and warnings
+shutil                          # File operations (built-in)
+subprocess                      # For executing wkhtmltoimage commands (built-in)
+
+# HTML to Image Conversion
+pdfkit==1.0.0                 # Conversion of HTML reports to PDF (optional)
+wkhtmltopdf                   # System dependency for wkhtmltoimage (install separately)
+
+# OpenAI GPT Integration
+openai==0.27.5                # OpenAI API for LLM-driven financial and overview analysis
+
+# JSON Handling and File Operations
+jsonlib-python3==1.6.1        # Extended JSON parsing and error handling
