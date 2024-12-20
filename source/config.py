@@ -1,0 +1,25 @@
+import os
+
+# 현재 config.py 파일의 절대 경로를 기준으로 설정
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# ../datasets 경로를 절대 경로로 변환
+RESOURCES_DIR = os.path.abspath(os.path.join(BASE_DIR, "../datasets"))
+
+# ITEMS 설정
+ITEMS = {
+    "item1": ["ITEM 1.", "BUSINESS"],
+    "item1a": ["ITEM 1A.", "RISK FACTORS"],
+    "item7": ["ITEM 7.", "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS"],
+    "income_statement": ["ITEM 15.", "EXHIBITS AND FINANCIAL STATEMENT SCHEDULES"]
+}
+
+# SECTION INDEX 정보 설정
+INDEX_INFO = [
+    "ITEM 1. BUSINESS", "ITEM 1A. RISK FACTORS", "ITEM 1B. UNRESOLVED STAFF COMMENTS",
+    "ITEM 2.", "ITEM 3.", "ITEM 4.", "ITEM 5.", "ITEM 6.",
+    "ITEM 7. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+    "ITEM 7A. QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK", "ITEM 8.",
+    "ITEM 9.", "ITEM 9A.", "ITEM 9B.", "ITEM 15. EXHIBITS AND FINANCIAL STATEMENT SCHEDULES"
+]
+
